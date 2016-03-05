@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -402,6 +402,101 @@
 <wire x1="5.1" y1="-25.4" x2="5.1" y2="25.4" width="0.127" layer="21"/>
 <wire x1="5.1" y1="25.4" x2="-5.1" y2="25.4" width="0.127" layer="21"/>
 <text x="-5.1" y="26" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="LED_0402">
+<smd name="CATHODE" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="ANODE" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-1.489" y="0.7985" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.27" y="0.635"/>
+<vertex x="-1.575" y="0.635"/>
+<vertex x="-1.575" y="-0.635"/>
+<vertex x="-1.27" y="-0.635"/>
+</polygon>
+</package>
+<package name="LED_0805">
+<smd name="CATHODE" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" cream="no"/>
+<smd name="ANODE" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" cream="no"/>
+<wire x1="-2.1" y1="1.05" x2="-2.1" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.05" x2="2.1" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.05" x2="2.1" y2="1.05" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.05" x2="-2.1" y2="1.05" width="0.127" layer="21"/>
+<text x="-2.625" y="1.524" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-2.1" y="1.05"/>
+<vertex x="-2.625" y="1.05"/>
+<vertex x="-2.625" y="-1.05"/>
+<vertex x="-2.1" y="-1.05"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.6" y="0.5"/>
+<vertex x="-0.5" y="0.5"/>
+<vertex x="-0.5" y="0.3"/>
+<vertex x="-0.8" y="0.3"/>
+<vertex x="-0.8" y="-0.3"/>
+<vertex x="-0.5" y="-0.3"/>
+<vertex x="-0.5" y="-0.5"/>
+<vertex x="-1.6" y="-0.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.6" y="-0.5"/>
+<vertex x="0.5" y="-0.5"/>
+<vertex x="0.5" y="-0.3"/>
+<vertex x="0.8" y="-0.3"/>
+<vertex x="0.8" y="0.3"/>
+<vertex x="0.5" y="0.3"/>
+<vertex x="0.5" y="0.5"/>
+<vertex x="1.6" y="0.5"/>
+</polygon>
+</package>
+<package name="APA3010">
+<smd name="2" x="1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="0" y="-0.65" dx="0.9" dy="0.9" layer="1" rot="R270"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-3" y2="1" width="0.127" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="1" y2="1" width="0.127" layer="21"/>
+<text x="-3" y="-2.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="LED_1MM_X_0.5MM">
+<smd name="CATHODE" x="-0.5" y="0" dx="0.65" dy="0.9" layer="1"/>
+<smd name="ANODE" x="0.5" y="0" dx="0.65" dy="0.9" layer="1"/>
+<text x="-1.389" y="0.7985" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="1.07" y1="0.635" x2="1.07" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.07" y1="-0.635" x2="-1.07" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.07" y1="-0.635" x2="-1.07" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.07" y1="0.635" x2="1.07" y2="0.635" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.07" y="0.635"/>
+<vertex x="-1.375" y="0.635"/>
+<vertex x="-1.375" y="-0.635"/>
+<vertex x="-1.07" y="-0.635"/>
+</polygon>
+</package>
+<package name="WP1043">
+<pad name="ANODE" x="0" y="1.27" drill="0.9" shape="square"/>
+<pad name="CATHODE" x="0" y="-1.27" drill="0.9" shape="square"/>
+<wire x1="-1.825" y1="3.075" x2="1.825" y2="3.075" width="0.127" layer="21"/>
+<wire x1="1.825" y1="3.075" x2="1.825" y2="-3.075" width="0.127" layer="21"/>
+<wire x1="1.825" y1="-3.075" x2="-1.825" y2="-3.075" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="-3.075" x2="-1.825" y2="3.075" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-1.825" y="-2.54"/>
+<vertex x="1.825" y="-2.54"/>
+<vertex x="1.825" y="-3.075"/>
+<vertex x="-1.825" y="-3.075"/>
+</polygon>
+<text x="-1.825" y="3.81" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -843,6 +938,36 @@
 <text x="5.08" y="-90.678" size="1.016" layer="97" font="vector">G</text>
 <text x="5.08" y="-95.758" size="1.016" layer="97" font="vector">G</text>
 </symbol>
+<symbol name="LED_SINGLE">
+<description>LED Single</description>
+<pin name="ANODE" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="CATHODE" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="-0.508" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.524" x2="-0.508" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.524" x2="1.016" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.508" y="-1.524"/>
+<vertex x="-0.508" y="1.524"/>
+<vertex x="1.016" y="0"/>
+</polygon>
+<wire x1="-0.508" y1="2.286" x2="0.508" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0.508" y1="3.302" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.016" y2="4.826" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.826" x2="0.508" y2="4.826" width="0.254" layer="94"/>
+<wire x1="0.508" y1="4.826" x2="1.016" y2="4.318" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.318" x2="1.016" y2="4.826" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.286" x2="1.778" y2="3.302" width="0.254" layer="94"/>
+<wire x1="1.778" y1="3.302" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.286" y2="4.826" width="0.254" layer="94"/>
+<wire x1="2.286" y1="4.826" x2="1.778" y2="4.826" width="0.254" layer="94"/>
+<wire x1="1.778" y1="4.826" x2="2.286" y2="4.318" width="0.254" layer="94"/>
+<wire x1="2.286" y1="4.318" x2="2.286" y2="4.826" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="-2.54" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PSA08-11GWA" prefix="DISP" uservalue="yes">
@@ -931,6 +1056,58 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED_SINGLE" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED_SINGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402" package="LED_0402">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_0805" package="LED_0805">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_APA3010" package="APA3010">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="2"/>
+<connect gate="G$1" pin="CATHODE" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1MM_X_0.5MM" package="LED_1MM_X_0.5MM">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_WP1043" package="WP1043">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -960,26 +1137,23 @@
 <part name="DISP14" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
 <part name="DISP15" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
 <part name="DISP16" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP17" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP18" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP19" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP20" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP21" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP22" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP23" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP24" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP25" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP26" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP27" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP28" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP29" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP30" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP31" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP32" library="PP_LED" deviceset="PSA08-11GWA" device=""/>
-<part name="DISP33" library="PP_LED" deviceset="20SEG_LEDBARGRAPH" device=""/>
-<part name="DISP34" library="PP_LED" deviceset="20SEG_LEDBARGRAPH" device=""/>
-<part name="DISP35" library="PP_LED" deviceset="20SEG_LEDBARGRAPH" device=""/>
 <part name="DISP36" library="PP_LED" deviceset="20SEG_LEDBARGRAPH" device=""/>
+<part name="D1" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D2" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D3" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D4" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D5" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D6" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D7" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D8" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D9" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D10" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D11" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D12" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D13" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D14" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D15" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
+<part name="D16" library="PP_LED" deviceset="LED_SINGLE" device="_WP1043"/>
 </parts>
 <sheets>
 <sheet>
@@ -1003,26 +1177,23 @@
 <instance part="DISP14" gate="G$1" x="322.58" y="114.3"/>
 <instance part="DISP15" gate="G$1" x="322.58" y="78.74"/>
 <instance part="DISP16" gate="G$1" x="322.58" y="43.18"/>
-<instance part="DISP17" gate="G$1" x="386.08" y="149.86"/>
-<instance part="DISP18" gate="G$1" x="386.08" y="114.3"/>
-<instance part="DISP19" gate="G$1" x="386.08" y="78.74"/>
-<instance part="DISP20" gate="G$1" x="386.08" y="43.18"/>
-<instance part="DISP21" gate="G$1" x="444.5" y="149.86"/>
-<instance part="DISP22" gate="G$1" x="444.5" y="114.3"/>
-<instance part="DISP23" gate="G$1" x="444.5" y="78.74"/>
-<instance part="DISP24" gate="G$1" x="444.5" y="43.18"/>
-<instance part="DISP25" gate="G$1" x="505.46" y="149.86"/>
-<instance part="DISP26" gate="G$1" x="505.46" y="114.3"/>
-<instance part="DISP27" gate="G$1" x="505.46" y="78.74"/>
-<instance part="DISP28" gate="G$1" x="505.46" y="43.18"/>
-<instance part="DISP29" gate="G$1" x="563.88" y="149.86"/>
-<instance part="DISP30" gate="G$1" x="563.88" y="114.3"/>
-<instance part="DISP31" gate="G$1" x="563.88" y="78.74"/>
-<instance part="DISP32" gate="G$1" x="563.88" y="43.18"/>
-<instance part="DISP33" gate="G$1" x="655.32" y="132.08"/>
-<instance part="DISP34" gate="G$1" x="675.64" y="132.08"/>
-<instance part="DISP35" gate="G$1" x="695.96" y="132.08"/>
 <instance part="DISP36" gate="G$1" x="716.28" y="132.08"/>
+<instance part="D1" gate="G$1" x="637.54" y="147.32"/>
+<instance part="D2" gate="G$1" x="637.54" y="134.62"/>
+<instance part="D3" gate="G$1" x="637.54" y="121.92"/>
+<instance part="D4" gate="G$1" x="637.54" y="109.22"/>
+<instance part="D5" gate="G$1" x="637.54" y="93.98"/>
+<instance part="D6" gate="G$1" x="637.54" y="81.28"/>
+<instance part="D7" gate="G$1" x="637.54" y="68.58"/>
+<instance part="D8" gate="G$1" x="637.54" y="55.88"/>
+<instance part="D9" gate="G$1" x="650.24" y="147.32"/>
+<instance part="D10" gate="G$1" x="650.24" y="134.62"/>
+<instance part="D11" gate="G$1" x="650.24" y="121.92"/>
+<instance part="D12" gate="G$1" x="650.24" y="109.22"/>
+<instance part="D13" gate="G$1" x="650.24" y="93.98"/>
+<instance part="D14" gate="G$1" x="650.24" y="81.28"/>
+<instance part="D15" gate="G$1" x="650.24" y="68.58"/>
+<instance part="D16" gate="G$1" x="650.24" y="55.88"/>
 </instances>
 <busses>
 </busses>
