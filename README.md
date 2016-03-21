@@ -1,8 +1,8 @@
+<p style="text-align: center"><img src="MacroFab_ED_600px.png" /></p>
+***
 ###SSPS
 ***
 **MacroFab, INC. Super Simple Power Supply**
-
-![MF_ED_Logo](MacroFab_ED_600px.png)
 
 This repository contains the information and files needed to build the Super Simple Power Supply or SSPS. 
 
