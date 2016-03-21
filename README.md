@@ -1,4 +1,4 @@
-<div style="align:center">![MF_ED_Logo](MacroFab_ED_600px.png)</div>
+![MF_ED_Logo](MacroFab_ED_600px.png)
 ***
 ###SSPS
 ***
