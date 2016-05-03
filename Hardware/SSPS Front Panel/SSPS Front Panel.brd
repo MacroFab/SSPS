@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -218,53 +218,6 @@
 <wire x1="10" y1="13.85" x2="-10" y2="13.85" width="0.127" layer="21"/>
 <text x="-10" y="14.605" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="20SEG_LEDBARGRAPH">
-<pad name="P$1" x="-3.8" y="24.13" drill="1"/>
-<pad name="P$2" x="-3.8" y="21.59" drill="1"/>
-<pad name="P$3" x="-3.8" y="19.05" drill="1"/>
-<pad name="P$4" x="-3.8" y="16.51" drill="1"/>
-<pad name="P$5" x="-3.8" y="13.97" drill="1"/>
-<pad name="P$6" x="-3.8" y="11.43" drill="1"/>
-<pad name="P$7" x="-3.8" y="8.89" drill="1"/>
-<pad name="P$8" x="-3.8" y="6.35" drill="1"/>
-<pad name="P$9" x="-3.8" y="3.81" drill="1"/>
-<pad name="P$10" x="-3.8" y="1.27" drill="1"/>
-<pad name="P$11" x="-3.8" y="-1.27" drill="1"/>
-<pad name="P$12" x="-3.8" y="-3.81" drill="1"/>
-<pad name="P$13" x="-3.8" y="-6.35" drill="1"/>
-<pad name="P$14" x="-3.8" y="-8.89" drill="1"/>
-<pad name="P$15" x="-3.8" y="-11.43" drill="1"/>
-<pad name="P$16" x="-3.8" y="-13.97" drill="1"/>
-<pad name="P$17" x="-3.8" y="-16.51" drill="1"/>
-<pad name="P$18" x="-3.8" y="-19.05" drill="1"/>
-<pad name="P$19" x="-3.8" y="-21.59" drill="1"/>
-<pad name="P$20" x="-3.8" y="-24.13" drill="1"/>
-<pad name="P$21" x="3.8" y="-24.13" drill="1" rot="R180"/>
-<pad name="P$22" x="3.8" y="-21.59" drill="1" rot="R180"/>
-<pad name="P$23" x="3.8" y="-19.05" drill="1" rot="R180"/>
-<pad name="P$24" x="3.8" y="-16.51" drill="1" rot="R180"/>
-<pad name="P$25" x="3.8" y="-13.97" drill="1" rot="R180"/>
-<pad name="P$26" x="3.8" y="-11.43" drill="1" rot="R180"/>
-<pad name="P$27" x="3.8" y="-8.89" drill="1" rot="R180"/>
-<pad name="P$28" x="3.8" y="-6.35" drill="1" rot="R180"/>
-<pad name="P$29" x="3.8" y="-3.81" drill="1" rot="R180"/>
-<pad name="P$30" x="3.8" y="-1.27" drill="1" rot="R180"/>
-<pad name="P$31" x="3.8" y="1.27" drill="1" rot="R180"/>
-<pad name="P$32" x="3.8" y="3.81" drill="1" rot="R180"/>
-<pad name="P$33" x="3.8" y="6.35" drill="1" rot="R180"/>
-<pad name="P$34" x="3.8" y="8.89" drill="1" rot="R180"/>
-<pad name="P$35" x="3.8" y="11.43" drill="1" rot="R180"/>
-<pad name="P$36" x="3.8" y="13.97" drill="1" rot="R180"/>
-<pad name="P$37" x="3.8" y="16.51" drill="1" rot="R180"/>
-<pad name="P$38" x="3.8" y="19.05" drill="1" rot="R180"/>
-<pad name="P$39" x="3.8" y="21.59" drill="1" rot="R180"/>
-<pad name="P$40" x="3.8" y="24.13" drill="1" rot="R180"/>
-<wire x1="-5.1" y1="25.4" x2="-5.1" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="-5.1" y1="-25.4" x2="5.1" y2="-25.4" width="0.127" layer="21"/>
-<wire x1="5.1" y1="-25.4" x2="5.1" y2="25.4" width="0.127" layer="21"/>
-<wire x1="5.1" y1="25.4" x2="-5.1" y2="25.4" width="0.127" layer="21"/>
-<text x="-5.1" y="26" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
-</package>
 <package name="WP1043">
 <pad name="ANODE" x="0" y="1.27" drill="0.9" shape="square"/>
 <pad name="CATHODE" x="0" y="-1.27" drill="0.9" shape="square"/>
@@ -279,6 +232,31 @@
 <vertex x="-1.825" y="-3.075"/>
 </polygon>
 <text x="-1.825" y="3.81" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="PP_Electromechanical">
+<packages>
+<package name="B3W-9000">
+<pad name="1" x="3.25" y="-2.25" drill="1" shape="octagon"/>
+<pad name="2" x="-3.25" y="-2.25" drill="1" shape="octagon"/>
+<pad name="3" x="3.25" y="2.25" drill="1" shape="octagon"/>
+<pad name="4" x="-3.25" y="2.25" drill="1" shape="octagon"/>
+<pad name="CATHODE_1" x="3.6" y="0" drill="1" shape="octagon"/>
+<pad name="ANODE_1" x="0" y="3.6" drill="1" shape="octagon"/>
+<pad name="ANODE_2" x="0" y="-3.6" drill="1" shape="octagon"/>
+<pad name="CATHODE_2" x="-3.6" y="0" drill="1" shape="octagon"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
+<text x="-5.08" y="5.715" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="5" y="-0.5" curve="-90"/>
+<vertex x="4.5" y="0" curve="-90"/>
+<vertex x="5" y="0.5" curve="-90"/>
+<vertex x="5.5" y="0" curve="-90"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -371,6 +349,9 @@ design rules under a new name.
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -463,39 +444,150 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="U1" library="MF_IC_Digital" package="LQFP44" value="P8X32A-Q44" x="-15.41" y="119.06"/>
-<element name="DISP1" library="PP_LED" package="PSA08-11GWA" value="" x="330" y="95"/>
-<element name="DISP2" library="PP_LED" package="PSA08-11GWA" value="" x="310" y="95"/>
-<element name="DISP3" library="PP_LED" package="PSA08-11GWA" value="" x="290" y="95"/>
-<element name="DISP4" library="PP_LED" package="PSA08-11GWA" value="" x="270" y="95"/>
-<element name="DISP5" library="PP_LED" package="PSA08-11GWA" value="" x="330" y="125"/>
-<element name="DISP6" library="PP_LED" package="PSA08-11GWA" value="" x="310" y="125"/>
-<element name="DISP7" library="PP_LED" package="PSA08-11GWA" value="" x="290" y="125"/>
-<element name="DISP8" library="PP_LED" package="PSA08-11GWA" value="" x="270" y="125"/>
-<element name="DISP9" library="PP_LED" package="PSA08-11GWA" value="" x="130" y="65"/>
-<element name="DISP10" library="PP_LED" package="PSA08-11GWA" value="" x="110" y="65"/>
-<element name="DISP11" library="PP_LED" package="PSA08-11GWA" value="" x="90" y="65"/>
-<element name="DISP12" library="PP_LED" package="PSA08-11GWA" value="" x="70" y="65"/>
-<element name="DISP13" library="PP_LED" package="PSA08-11GWA" value="" x="130" y="125"/>
-<element name="DISP14" library="PP_LED" package="PSA08-11GWA" value="" x="110" y="125"/>
-<element name="DISP15" library="PP_LED" package="PSA08-11GWA" value="" x="90" y="125"/>
-<element name="DISP16" library="PP_LED" package="PSA08-11GWA" value="" x="70" y="125"/>
-<element name="DISP36" library="PP_LED" package="20SEG_LEDBARGRAPH" value="" x="240" y="110"/>
-<element name="D1" library="PP_LED" package="WP1043" value="" x="48.31149375" y="49.91018125" rot="R80"/>
-<element name="D2" library="PP_LED" package="WP1043" value="" x="48.929703125" y="53.416109375" rot="R80"/>
-<element name="D3" library="PP_LED" package="WP1043" value="" x="49.547878125" y="56.922015625" rot="R80"/>
-<element name="D4" library="PP_LED" package="WP1043" value="" x="50.784265625" y="63.933853125" rot="R80"/>
-<element name="D5" library="PP_LED" package="WP1043" value="" x="55.77698125" y="79.40048125" rot="R50"/>
-<element name="D6" library="PP_LED" package="WP1043" value="" x="51.4024375" y="67.43978125" rot="R80"/>
-<element name="D7" library="PP_LED" package="WP1043" value="" x="52.020615625" y="70.945684375" rot="R80"/>
-<element name="D8" library="PP_LED" package="WP1043" value="" x="53.3254125" y="75.4177875" rot="R65"/>
-<element name="D9" library="PP_LED" package="WP1043" value="" x="68.04641875" y="85.89925" rot="R5"/>
-<element name="D10" library="PP_LED" package="WP1043" value="" x="63.4875625" y="84.85623125" rot="R20"/>
-<element name="D11" library="PP_LED" package="WP1043" value="" x="50.16606875" y="60.427934375" rot="R80"/>
-<element name="D12" library="PP_LED" package="WP1043" value="" x="72.307675" y="86.234640625"/>
-<element name="D13" library="PP_LED" package="WP1043" value="" x="75.867678125" y="86.234640625"/>
-<element name="D14" library="PP_LED" package="WP1043" value="" x="82.987678125" y="86.23463125"/>
-<element name="D15" library="PP_LED" package="WP1043" value="" x="79.427684375" y="86.23464375"/>
-<element name="D16" library="PP_LED" package="WP1043" value="" x="59.303684375" y="82.67775625" rot="R35"/>
+<element name="DISP1" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="280" y="95"/>
+<element name="DISP2" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="260" y="95"/>
+<element name="DISP3" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="240" y="95"/>
+<element name="DISP4" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="220" y="95"/>
+<element name="DISP5" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="280" y="125"/>
+<element name="DISP6" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="260" y="125"/>
+<element name="DISP7" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="240" y="125"/>
+<element name="DISP8" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="220" y="125"/>
+<element name="DISP9" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="130" y="95"/>
+<element name="DISP10" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="110" y="95"/>
+<element name="DISP11" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="90" y="95"/>
+<element name="DISP12" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="70" y="95"/>
+<element name="DISP13" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="130" y="125"/>
+<element name="DISP14" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="110" y="125"/>
+<element name="DISP15" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="90" y="125"/>
+<element name="DISP16" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="70" y="125"/>
+<element name="D1" library="PP_LED" package="WP1043" value="" x="42.55" y="146" rot="R180"/>
+<element name="D2" library="PP_LED" package="WP1043" value="" x="46.2" y="146" rot="R180"/>
+<element name="D3" library="PP_LED" package="WP1043" value="" x="49.85" y="146" rot="R180"/>
+<element name="D4" library="PP_LED" package="WP1043" value="" x="53.5" y="146" rot="R180"/>
+<element name="D5" library="PP_LED" package="WP1043" value="" x="57.15" y="146" rot="R180"/>
+<element name="D6" library="PP_LED" package="WP1043" value="" x="60.8" y="146" rot="R180"/>
+<element name="D7" library="PP_LED" package="WP1043" value="" x="64.45" y="146" rot="R180"/>
+<element name="D8" library="PP_LED" package="WP1043" value="" x="68.1" y="146" rot="R180"/>
+<element name="DISP17" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="50" y="125"/>
+<element name="DISP18" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="50" y="95"/>
+<element name="DISP19" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="200" y="95"/>
+<element name="DISP20" library="PP_LED" package="PSA08-11GWA" value="PSA08-11GWA" x="200" y="125"/>
+<element name="D9" library="PP_LED" package="WP1043" value="" x="71.75" y="146" rot="R180"/>
+<element name="D10" library="PP_LED" package="WP1043" value="" x="75.4" y="146" rot="R180"/>
+<element name="D11" library="PP_LED" package="WP1043" value="" x="79.05" y="146" rot="R180"/>
+<element name="D12" library="PP_LED" package="WP1043" value="" x="82.7" y="146" rot="R180"/>
+<element name="D13" library="PP_LED" package="WP1043" value="" x="86.35" y="146" rot="R180"/>
+<element name="D14" library="PP_LED" package="WP1043" value="" x="90" y="146" rot="R180"/>
+<element name="D15" library="PP_LED" package="WP1043" value="" x="93.65" y="146" rot="R180"/>
+<element name="D16" library="PP_LED" package="WP1043" value="" x="97.3" y="146" rot="R180"/>
+<element name="D17" library="PP_LED" package="WP1043" value="" x="100.95" y="146" rot="R180"/>
+<element name="D18" library="PP_LED" package="WP1043" value="" x="104.6" y="146" rot="R180"/>
+<element name="D19" library="PP_LED" package="WP1043" value="" x="108.25" y="146" rot="R180"/>
+<element name="D20" library="PP_LED" package="WP1043" value="" x="111.9" y="146" rot="R180"/>
+<element name="D21" library="PP_LED" package="WP1043" value="" x="115.55" y="146" rot="R180"/>
+<element name="D22" library="PP_LED" package="WP1043" value="" x="119.2" y="146" rot="R180"/>
+<element name="D23" library="PP_LED" package="WP1043" value="" x="122.85" y="146" rot="R180"/>
+<element name="D24" library="PP_LED" package="WP1043" value="" x="126.5" y="146" rot="R180"/>
+<element name="D25" library="PP_LED" package="WP1043" value="" x="130.15" y="146" rot="R180"/>
+<element name="D26" library="PP_LED" package="WP1043" value="" x="133.8" y="146" rot="R180"/>
+<element name="D27" library="PP_LED" package="WP1043" value="" x="137.45" y="146" rot="R180"/>
+<element name="D28" library="PP_LED" package="WP1043" value="" x="42.55" y="74" rot="R180"/>
+<element name="D29" library="PP_LED" package="WP1043" value="" x="46.2" y="74" rot="R180"/>
+<element name="D30" library="PP_LED" package="WP1043" value="" x="49.85" y="74" rot="R180"/>
+<element name="D31" library="PP_LED" package="WP1043" value="" x="53.5" y="74" rot="R180"/>
+<element name="D32" library="PP_LED" package="WP1043" value="" x="57.15" y="74" rot="R180"/>
+<element name="D33" library="PP_LED" package="WP1043" value="" x="60.8" y="74" rot="R180"/>
+<element name="D34" library="PP_LED" package="WP1043" value="" x="64.45" y="74" rot="R180"/>
+<element name="D35" library="PP_LED" package="WP1043" value="" x="68.1" y="74" rot="R180"/>
+<element name="D36" library="PP_LED" package="WP1043" value="" x="71.75" y="74" rot="R180"/>
+<element name="D37" library="PP_LED" package="WP1043" value="" x="75.4" y="74" rot="R180"/>
+<element name="D38" library="PP_LED" package="WP1043" value="" x="79.05" y="74" rot="R180"/>
+<element name="D39" library="PP_LED" package="WP1043" value="" x="82.7" y="74" rot="R180"/>
+<element name="D40" library="PP_LED" package="WP1043" value="" x="86.35" y="74" rot="R180"/>
+<element name="D41" library="PP_LED" package="WP1043" value="" x="90" y="74" rot="R180"/>
+<element name="D42" library="PP_LED" package="WP1043" value="" x="93.65" y="74" rot="R180"/>
+<element name="D43" library="PP_LED" package="WP1043" value="" x="97.3" y="74" rot="R180"/>
+<element name="D44" library="PP_LED" package="WP1043" value="" x="100.95" y="74" rot="R180"/>
+<element name="D45" library="PP_LED" package="WP1043" value="" x="104.6" y="74" rot="R180"/>
+<element name="D46" library="PP_LED" package="WP1043" value="" x="108.25" y="74" rot="R180"/>
+<element name="D47" library="PP_LED" package="WP1043" value="" x="111.9" y="74" rot="R180"/>
+<element name="D48" library="PP_LED" package="WP1043" value="" x="115.55" y="74" rot="R180"/>
+<element name="D49" library="PP_LED" package="WP1043" value="" x="119.2" y="74" rot="R180"/>
+<element name="D50" library="PP_LED" package="WP1043" value="" x="122.85" y="74" rot="R180"/>
+<element name="D51" library="PP_LED" package="WP1043" value="" x="126.5" y="74" rot="R180"/>
+<element name="D52" library="PP_LED" package="WP1043" value="" x="130.15" y="74" rot="R180"/>
+<element name="D53" library="PP_LED" package="WP1043" value="" x="133.8" y="74" rot="R180"/>
+<element name="D54" library="PP_LED" package="WP1043" value="" x="137.45" y="74" rot="R180"/>
+<element name="D55" library="PP_LED" package="WP1043" value="" x="192.55" y="146" rot="R180"/>
+<element name="D56" library="PP_LED" package="WP1043" value="" x="196.2" y="146" rot="R180"/>
+<element name="D57" library="PP_LED" package="WP1043" value="" x="199.85" y="146" rot="R180"/>
+<element name="D58" library="PP_LED" package="WP1043" value="" x="203.5" y="146" rot="R180"/>
+<element name="D59" library="PP_LED" package="WP1043" value="" x="207.15" y="146" rot="R180"/>
+<element name="D60" library="PP_LED" package="WP1043" value="" x="210.8" y="146" rot="R180"/>
+<element name="D61" library="PP_LED" package="WP1043" value="" x="214.45" y="146" rot="R180"/>
+<element name="D62" library="PP_LED" package="WP1043" value="" x="218.1" y="146" rot="R180"/>
+<element name="D63" library="PP_LED" package="WP1043" value="" x="221.75" y="146" rot="R180"/>
+<element name="D64" library="PP_LED" package="WP1043" value="" x="225.4" y="146" rot="R180"/>
+<element name="D65" library="PP_LED" package="WP1043" value="" x="229.05" y="146" rot="R180"/>
+<element name="D66" library="PP_LED" package="WP1043" value="" x="232.7" y="146" rot="R180"/>
+<element name="D67" library="PP_LED" package="WP1043" value="" x="236.35" y="146" rot="R180"/>
+<element name="D68" library="PP_LED" package="WP1043" value="" x="240" y="146" rot="R180"/>
+<element name="D69" library="PP_LED" package="WP1043" value="" x="243.65" y="146" rot="R180"/>
+<element name="D70" library="PP_LED" package="WP1043" value="" x="247.3" y="146" rot="R180"/>
+<element name="D71" library="PP_LED" package="WP1043" value="" x="250.95" y="146" rot="R180"/>
+<element name="D72" library="PP_LED" package="WP1043" value="" x="254.6" y="146" rot="R180"/>
+<element name="D73" library="PP_LED" package="WP1043" value="" x="258.25" y="146" rot="R180"/>
+<element name="D74" library="PP_LED" package="WP1043" value="" x="261.9" y="146" rot="R180"/>
+<element name="D75" library="PP_LED" package="WP1043" value="" x="265.55" y="146" rot="R180"/>
+<element name="D76" library="PP_LED" package="WP1043" value="" x="269.2" y="146" rot="R180"/>
+<element name="D77" library="PP_LED" package="WP1043" value="" x="272.85" y="146" rot="R180"/>
+<element name="D78" library="PP_LED" package="WP1043" value="" x="276.5" y="146" rot="R180"/>
+<element name="D79" library="PP_LED" package="WP1043" value="" x="280.15" y="146" rot="R180"/>
+<element name="D80" library="PP_LED" package="WP1043" value="" x="283.8" y="146" rot="R180"/>
+<element name="D81" library="PP_LED" package="WP1043" value="" x="287.45" y="146" rot="R180"/>
+<element name="D82" library="PP_LED" package="WP1043" value="" x="192.55" y="74" rot="R180"/>
+<element name="D83" library="PP_LED" package="WP1043" value="" x="196.2" y="74" rot="R180"/>
+<element name="D84" library="PP_LED" package="WP1043" value="" x="199.85" y="74" rot="R180"/>
+<element name="D85" library="PP_LED" package="WP1043" value="" x="203.5" y="74" rot="R180"/>
+<element name="D86" library="PP_LED" package="WP1043" value="" x="207.15" y="74" rot="R180"/>
+<element name="D87" library="PP_LED" package="WP1043" value="" x="210.8" y="74" rot="R180"/>
+<element name="D88" library="PP_LED" package="WP1043" value="" x="214.45" y="74" rot="R180"/>
+<element name="D89" library="PP_LED" package="WP1043" value="" x="218.1" y="74" rot="R180"/>
+<element name="D90" library="PP_LED" package="WP1043" value="" x="221.75" y="74" rot="R180"/>
+<element name="D91" library="PP_LED" package="WP1043" value="" x="225.4" y="74" rot="R180"/>
+<element name="D92" library="PP_LED" package="WP1043" value="" x="229.05" y="74" rot="R180"/>
+<element name="D93" library="PP_LED" package="WP1043" value="" x="232.7" y="74" rot="R180"/>
+<element name="D94" library="PP_LED" package="WP1043" value="" x="236.35" y="74" rot="R180"/>
+<element name="D95" library="PP_LED" package="WP1043" value="" x="240" y="74" rot="R180"/>
+<element name="D96" library="PP_LED" package="WP1043" value="" x="243.65" y="74" rot="R180"/>
+<element name="D97" library="PP_LED" package="WP1043" value="" x="247.3" y="74" rot="R180"/>
+<element name="D98" library="PP_LED" package="WP1043" value="" x="250.95" y="74" rot="R180"/>
+<element name="D99" library="PP_LED" package="WP1043" value="" x="254.6" y="74" rot="R180"/>
+<element name="D100" library="PP_LED" package="WP1043" value="" x="258.25" y="74" rot="R180"/>
+<element name="D101" library="PP_LED" package="WP1043" value="" x="261.9" y="74" rot="R180"/>
+<element name="D102" library="PP_LED" package="WP1043" value="" x="265.55" y="74" rot="R180"/>
+<element name="D103" library="PP_LED" package="WP1043" value="" x="269.2" y="74" rot="R180"/>
+<element name="D104" library="PP_LED" package="WP1043" value="" x="272.85" y="74" rot="R180"/>
+<element name="D105" library="PP_LED" package="WP1043" value="" x="276.5" y="74" rot="R180"/>
+<element name="D106" library="PP_LED" package="WP1043" value="" x="280.15" y="74" rot="R180"/>
+<element name="D107" library="PP_LED" package="WP1043" value="" x="283.8" y="74" rot="R180"/>
+<element name="D108" library="PP_LED" package="WP1043" value="" x="287.45" y="74" rot="R180"/>
+<element name="SW1" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="340" y="134"/>
+<element name="SW2" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="351" y="134"/>
+<element name="SW3" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="362" y="134"/>
+<element name="SW4" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="373" y="134"/>
+<element name="SW5" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="340" y="123"/>
+<element name="SW6" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="351" y="123"/>
+<element name="SW7" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="362" y="123"/>
+<element name="SW8" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="373" y="123"/>
+<element name="SW9" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="340" y="112"/>
+<element name="SW10" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="351" y="112"/>
+<element name="SW11" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="362" y="112"/>
+<element name="SW12" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="373" y="112"/>
+<element name="SW13" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="340" y="101"/>
+<element name="SW14" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="351" y="101"/>
+<element name="SW15" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="362" y="101"/>
+<element name="SW16" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="373" y="101"/>
 </elements>
 <signals>
 <signal name="VSS">
