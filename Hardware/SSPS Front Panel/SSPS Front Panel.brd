@@ -371,36 +371,44 @@ P/N: 450-KLN910</text>
 </library>
 <library name="PP_Displays">
 <packages>
-<package name="CHAR_DISPLAY_1602_COUNTERSINK">
-<pad name="1" x="8" y="-2" drill="1"/>
-<pad name="2" x="10.54" y="-2" drill="1"/>
-<pad name="3" x="13.08" y="-2" drill="1"/>
-<pad name="4" x="15.62" y="-2" drill="1"/>
-<pad name="5" x="18.16" y="-2" drill="1"/>
-<pad name="6" x="20.7" y="-2" drill="1"/>
-<pad name="7" x="23.24" y="-2" drill="1"/>
-<pad name="8" x="25.78" y="-2" drill="1"/>
-<pad name="9" x="28.32" y="-2" drill="1"/>
-<pad name="10" x="30.86" y="-2" drill="1"/>
-<pad name="11" x="33.4" y="-2" drill="1"/>
-<pad name="12" x="35.94" y="-2" drill="1"/>
-<pad name="13" x="38.48" y="-2" drill="1"/>
-<pad name="14" x="41.02" y="-2" drill="1"/>
-<pad name="15" x="43.56" y="-2" drill="1"/>
-<pad name="16" x="46.1" y="-2" drill="1"/>
-<hole x="2.5" y="-2.5" drill="2.8"/>
-<hole x="77.5" y="-2.5" drill="2.8"/>
-<hole x="77.5" y="-33.5" drill="2.8"/>
-<hole x="2.5" y="-33.5" drill="2.8"/>
-<wire x1="0" y1="0" x2="0" y2="-36" width="0.127" layer="21"/>
-<wire x1="0" y1="-36" x2="80" y2="-36" width="0.127" layer="21"/>
-<wire x1="80" y1="-36" x2="80" y2="0" width="0.127" layer="21"/>
-<wire x1="80" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<text x="0" y="2.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<wire x1="1.46" y1="-4.8" x2="78.54" y2="-4.8" width="0" layer="20"/>
-<wire x1="78.54" y1="-4.8" x2="78.54" y2="-32" width="0" layer="20"/>
-<wire x1="78.54" y1="-32" x2="1.46" y2="-32" width="0" layer="20"/>
-<wire x1="1.46" y1="-32" x2="1.46" y2="-4.8" width="0" layer="20"/>
+<package name="CU16025-UW6J">
+<hole x="0" y="0" drill="2.5"/>
+<hole x="0" y="31" drill="2.5"/>
+<hole x="75" y="31" drill="2.5"/>
+<hole x="75" y="0" drill="2.5"/>
+<wire x1="-2.5" y1="33.5" x2="77.5" y2="33.5" width="0.127" layer="21"/>
+<wire x1="77.5" y1="33.5" x2="77.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="77.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="33.5" width="0.127" layer="21"/>
+<pad name="P$1" x="5.5" y="31" drill="1"/>
+<pad name="P$2" x="8.04" y="31" drill="1"/>
+<pad name="P$3" x="10.58" y="31" drill="1"/>
+<pad name="P$4" x="13.12" y="31" drill="1"/>
+<pad name="P$5" x="15.66" y="31" drill="1"/>
+<pad name="P$6" x="18.2" y="31" drill="1"/>
+<pad name="P$7" x="20.74" y="31" drill="1"/>
+<pad name="P$8" x="23.28" y="31" drill="1"/>
+<pad name="P$9" x="25.82" y="31" drill="1"/>
+<pad name="P$10" x="28.36" y="31" drill="1"/>
+<pad name="P$11" x="30.9" y="31" drill="1"/>
+<pad name="P$12" x="33.44" y="31" drill="1"/>
+<pad name="P$13" x="35.98" y="31" drill="1"/>
+<pad name="P$14" x="38.52" y="31" drill="1"/>
+<pad name="P$15" x="46" y="31" drill="1"/>
+<pad name="P$16" x="48.5" y="31" drill="1"/>
+<pad name="P$17" x="51" y="31" drill="1"/>
+<pad name="P$18" x="53.5" y="31" drill="1"/>
+<pad name="P$19" x="56" y="31" drill="1"/>
+<pad name="P$20" x="58.5" y="31" drill="1"/>
+<wire x1="-0.5" y1="27" x2="75.5" y2="27" width="0.127" layer="21"/>
+<wire x1="75.5" y1="27" x2="75.5" y2="4" width="0.127" layer="21"/>
+<wire x1="75.5" y1="4" x2="-0.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="4" x2="-0.5" y2="27" width="0.127" layer="21"/>
+<wire x1="11.8" y1="21.8" x2="63.2" y2="21.8" width="0.127" layer="21"/>
+<wire x1="63.2" y1="21.8" x2="63.2" y2="10.4" width="0.127" layer="21"/>
+<wire x1="63.2" y1="10.4" x2="11.8" y2="10.4" width="0.127" layer="21"/>
+<wire x1="11.8" y1="10.4" x2="11.8" y2="21.8" width="0.127" layer="21"/>
+<text x="-2.5" y="35" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -421,6 +429,61 @@ P/N: 450-KLN910</text>
 <vertex x="0" y="4.572" curve="-90"/>
 <vertex x="4.572" y="0" curve="-90"/>
 </polygon>
+</package>
+<package name="61400413321">
+<pad name="S1" x="-6.02" y="0" drill="2.3" shape="square"/>
+<pad name="S2" x="6.02" y="0" drill="2.3" shape="square"/>
+<pad name="1" x="1.25" y="2.7" drill="0.92"/>
+<pad name="2" x="-1.25" y="2.7" drill="0.92"/>
+<pad name="3" x="-1.25" y="-0.5" drill="0.92"/>
+<pad name="4" x="1.25" y="-0.5" drill="0.92"/>
+<wire x1="-6.1" y1="6.48" x2="6.1" y2="6.48" width="0.127" layer="21"/>
+<wire x1="6.1" y1="6.48" x2="6.1" y2="-4.72" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-4.72" x2="-6.1" y2="-4.72" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-4.72" x2="-6.1" y2="6.48" width="0.127" layer="21"/>
+<text x="-6.1" y="7.62" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="PP_DigitalIC">
+<packages>
+<package name="STP16CP05XTTR_TTSOP-24">
+<smd name="P$1" x="-3.2" y="3.575" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$2" x="-3.2" y="2.925" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$3" x="-3.2" y="2.275" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$4" x="-3.2" y="1.625" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$5" x="-3.2" y="0.975" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$6" x="-3.2" y="0.325" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$7" x="-3.2" y="-0.325" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$8" x="-3.2" y="-0.975" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$9" x="-3.2" y="-1.625" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$10" x="-3.2" y="-2.275" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$11" x="-3.2" y="-2.925" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$12" x="-3.2" y="-3.575" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$13" x="3.2" y="-3.575" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$14" x="3.2" y="-2.925" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$15" x="3.2" y="-2.275" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$16" x="3.2" y="-1.625" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$17" x="3.2" y="-0.975" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$18" x="3.2" y="-0.325" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$19" x="3.2" y="0.325" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$20" x="3.2" y="0.975" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$21" x="3.2" y="1.625" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$22" x="3.2" y="2.275" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$23" x="3.2" y="2.925" dx="1.4" dy="0.25" layer="1"/>
+<smd name="P$24" x="3.2" y="3.575" dx="1.4" dy="0.25" layer="1"/>
+<smd name="PAD" x="0" y="0" dx="3.2" dy="5" layer="1"/>
+<wire x1="-4.2" y1="4" x2="4.2" y2="4" width="0.127" layer="21"/>
+<wire x1="4.2" y1="4" x2="4.2" y2="-4" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-4" x2="-4.2" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-4" x2="-4.2" y2="4" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-4.9" y="3.4" curve="-90"/>
+<vertex x="-5.1" y="3.6" curve="-90"/>
+<vertex x="-4.9" y="3.8" curve="-90"/>
+<vertex x="-4.7" y="3.6" curve="-90"/>
+</polygon>
+<text x="-4.2" y="4.3" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -759,12 +822,10 @@ design rules under a new name.
 <element name="SW21" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="285" y="45"/>
 <element name="SW22" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="285" y="30"/>
 <element name="SW23" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="285" y="15"/>
-<element name="SW24" library="PP_Electromechanical" package="B3W-9000" value="B3W-9000-RG2C" x="-15" y="40"/>
 <element name="SW25" library="PP_Electromechanical" package="5501" value="5501M112" x="15" y="125" rot="R90"/>
 <element name="SW26" library="PP_Electromechanical" package="5501" value="5501M112" x="160" y="125" rot="R90"/>
 <element name="EN1" library="PP_Electromechanical" package="PEL12T" value="PEL12T-4226F-S1024" x="380" y="105"/>
 <element name="EN2" library="PP_Electromechanical" package="PEL12T" value="PEL12T-4226F-S1024" x="380" y="75"/>
-<element name="LCD1" library="PP_Displays" package="CHAR_DISPLAY_1602_COUNTERSINK" value="" x="305" y="155"/>
 <element name="H1" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="5" y="5"/>
 <element name="H2" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="5" y="155"/>
 <element name="H3" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="395" y="155"/>
@@ -775,6 +836,9 @@ design rules under a new name.
 <element name="H8" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="245" y="5"/>
 <element name="H9" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="285" y="115"/>
 <element name="H10" library="PP_Connectors" package="MOUNT_HOLE_150MIL" value="MOUNT_HOLE150MIL" x="140" y="115"/>
+<element name="U2" library="PP_DigitalIC" package="STP16CP05XTTR_TTSOP-24" value="STP16CP05XTTR" x="40" y="130" rot="MR0"/>
+<element name="DISP21" library="PP_Displays" package="CU16025-UW6J" value="CU16025-UWJ6" x="307" y="122"/>
+<element name="J1" library="PP_Connectors" package="61400413321" value="61400413321" x="20" y="30"/>
 </elements>
 <signals>
 <signal name="VSS">
@@ -794,6 +858,11 @@ design rules under a new name.
 <wire x1="-15.39" y1="118.36" x2="-8.89" y2="122.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.29" y1="125.66" x2="-15.39" y2="118.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.79" y1="129.76" x2="-20.29" y2="125.66" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SLD">
+<contactref element="J1" pad="S1"/>
+<contactref element="J1" pad="S2"/>
+<wire x1="26.02" y1="30" x2="13.98" y2="30" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
