@@ -3142,9 +3142,9 @@
 </autorouter>
 <elements>
 <element name="DISP1" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11SRWA" x="94.346" y="15.78"/>
-<element name="DISP2" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11GWA" x="74.346" y="15.78"/>
-<element name="DISP3" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11GWA" x="54.346" y="15.78"/>
-<element name="DISP4" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11GWA" x="34.346" y="15.78"/>
+<element name="DISP2" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11SRWA" x="74.346" y="15.78"/>
+<element name="DISP3" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11SRWA" x="54.346" y="15.78"/>
+<element name="DISP4" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11SRWA" x="34.346" y="15.78"/>
 <element name="D1" library="PP_LED" package="WP1043" value="WP1043ID" x="6.896" y="36.78" rot="R180"/>
 <element name="D2" library="PP_LED" package="WP1043" value="WP1043ID" x="10.546" y="36.78" rot="R180"/>
 <element name="D3" library="PP_LED" package="WP1043" value="WP1043ID" x="14.196" y="36.78" rot="R180"/>
@@ -3153,7 +3153,7 @@
 <element name="D6" library="PP_LED" package="WP1043" value="WP1043ID" x="25.146" y="36.78" rot="R180"/>
 <element name="D7" library="PP_LED" package="WP1043" value="WP1043YD" x="28.796" y="36.78" rot="R180"/>
 <element name="D8" library="PP_LED" package="WP1043" value="WP1043YD" x="32.446" y="36.78" rot="R180"/>
-<element name="DISP5" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11GWA" x="14.346" y="15.78"/>
+<element name="DISP5" library="PP_LED" package="PSA08-11SRWA" value="PSA08-11SRWA" x="14.346" y="15.78"/>
 <element name="D9" library="PP_LED" package="WP1043" value="WP1043YD" x="36.096" y="36.78" rot="R180"/>
 <element name="D10" library="PP_LED" package="WP1043" value="WP1043YD" x="39.746" y="36.78" rot="R180"/>
 <element name="D11" library="PP_LED" package="WP1043" value="WP1043YD" x="43.396" y="36.78" rot="R180"/>
@@ -3319,7 +3319,7 @@
 <element name="GND" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5001" x="154.94" y="16.51" smashed="yes">
 <attribute name="NAME" x="152.4" y="20.32" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="SW3" library="PP_Electromechanical" package="5501" value="5501" x="141.478" y="24.13" rot="R90"/>
+<element name="SW3" library="PP_Electromechanical" package="5501" value="5501M112" x="141.478" y="24.13" rot="R90"/>
 <element name="U14" library="PP_DigitalIC" package="STP16CP05XTTR_TTSOP-24" value="STP16CP05XTTR" x="110.998" y="56.388" rot="MR180"/>
 <element name="C24" library="PP_Passives" package="0603" value="0.1uF" x="110.998" y="50.038" rot="MR0"/>
 <element name="R15" library="PP_Passives" package="0603" value="1K" x="115.824" y="50.038" rot="MR90"/>
