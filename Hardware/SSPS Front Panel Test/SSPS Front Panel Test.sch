@@ -6806,6 +6806,11 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <label x="198.12" y="-7.62" size="1.016" layer="95" font="vector"/>
 <pinref part="U13" gate="G$1" pin="RTS#"/>
 </segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-81.28" x2="66.04" y2="-81.28" width="0.1524" layer="91"/>
+<label x="66.04" y="-81.28" size="1.016" layer="95" font="vector"/>
+</segment>
 </net>
 <net name="3V3OUT" class="0">
 <segment>
@@ -7069,13 +7074,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="127" y1="-99.06" x2="114.3" y2="-99.06" width="0.1524" layer="91"/>
 <label x="124.46" y="-99.06" size="1.016" layer="95" font="vector"/>
 <pinref part="U1" gate="G$1" pin="P26"/>
-</segment>
-</net>
-<net name="USB_RST" class="0">
-<segment>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="-81.28" x2="66.04" y2="-81.28" width="0.1524" layer="91"/>
-<label x="66.04" y="-81.28" size="1.016" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="LCD_SI/SO" class="0">

@@ -5416,6 +5416,18 @@
 </signal>
 <signal name="USB_!RST">
 <contactref element="U13" pad="8"/>
+<contactref element="C21" pad="2"/>
+<wire x1="127.166" y1="46.228" x2="127" y2="46.228" width="0.254" layer="1"/>
+<wire x1="127" y1="46.228" x2="127" y2="55.118" width="0.254" layer="1"/>
+<wire x1="127" y1="55.118" x2="128.778" y2="56.896" width="0.254" layer="1"/>
+<wire x1="128.778" y1="56.896" x2="132.334" y2="56.896" width="0.254" layer="1"/>
+<wire x1="132.334" y1="56.896" x2="133.096" y2="57.658" width="0.254" layer="1"/>
+<wire x1="133.096" y1="57.658" x2="133.096" y2="57.912" width="0.254" layer="1"/>
+<via x="133.096" y="57.912" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="133.096" y1="57.912" x2="138.43" y2="63.246" width="0.254" layer="16"/>
+<wire x1="138.43" y1="63.246" x2="138.43" y2="69.088" width="0.254" layer="16"/>
+<wire x1="138.43" y1="69.088" x2="139.787" y2="70.445" width="0.254" layer="16"/>
+<wire x1="139.787" y1="70.445" x2="143.657" y2="70.445" width="0.254" layer="16"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="36"/>
@@ -5559,9 +5571,6 @@
 </signal>
 <signal name="P26">
 <contactref element="U1" pad="33"/>
-</signal>
-<signal name="USB_RST">
-<contactref element="C21" pad="2"/>
 </signal>
 <signal name="LCD_SI/SO">
 <contactref element="LCD1" pad="P$16"/>
