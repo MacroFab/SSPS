@@ -571,8 +571,8 @@
 <pad name="1A" x="0" y="3.81" drill="0.9" shape="octagon"/>
 <pad name="ANODE_1" x="5.08" y="3.81" drill="0.9" shape="octagon"/>
 <pad name="CATHODE_1" x="5.08" y="1.27" drill="0.9" shape="octagon"/>
-<pad name="ANODE_2" x="5.08" y="-1.27" drill="0.9" shape="octagon"/>
-<pad name="CATHODE_2" x="5.08" y="-3.81" drill="0.9" shape="octagon"/>
+<pad name="CATHODE_2" x="5.08" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="ANODE_2" x="5.08" y="-3.81" drill="0.9" shape="octagon"/>
 <pad name="MH2" x="7.62" y="-3.81" drill="1.1" shape="octagon"/>
 <pad name="1B" x="0" y="-3.81" drill="0.9" shape="octagon"/>
 <pad name="2" x="-5.08" y="-3.81" drill="0.9" shape="octagon"/>
@@ -1004,14 +1004,14 @@
 <connect gate="G$1" pin="D7" pad="P$14"/>
 <connect gate="G$1" pin="E" pad="P$6"/>
 <connect gate="G$1" pin="GND1" pad="P$1"/>
-<connect gate="G$1" pin="GND2" pad="P$17"/>
+<connect gate="G$1" pin="GND2" pad="P$18"/>
 <connect gate="G$1" pin="R/W" pad="P$5"/>
 <connect gate="G$1" pin="RS" pad="P$4"/>
-<connect gate="G$1" pin="SCK" pad="P$19"/>
-<connect gate="G$1" pin="SI/SO" pad="P$16"/>
-<connect gate="G$1" pin="STB" pad="P$18"/>
+<connect gate="G$1" pin="SCK" pad="P$16"/>
+<connect gate="G$1" pin="SI/SO" pad="P$19"/>
+<connect gate="G$1" pin="STB" pad="P$17"/>
 <connect gate="G$1" pin="VCC1" pad="P$2"/>
-<connect gate="G$1" pin="VCC2" pad="P$15"/>
+<connect gate="G$1" pin="VCC2" pad="P$20"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2272,8 +2272,8 @@
 <packages>
 <package name="MF_FRAME_DEFAULT">
 <description>&lt;b&gt;Description:&lt;/b&gt; Footprint for adding Meta Data to the PCB.&lt;br/&gt;</description>
-<text x="0" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16">(c) 2015 MacroFab, Inc</text>
-<text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16">MacroFab.net</text>
+<text x="0" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16">(c) 2016 MacroFab, Inc</text>
+<text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16">MacroFab.com</text>
 <text x="0" y="-3.81" size="0.8128" layer="21" font="vector" ratio="16">&gt;DRAWING_NAME</text>
 <text x="0" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16">&gt;REVNUM</text>
 <text x="0" y="-6.35" size="0.8128" layer="21" font="vector" ratio="16">&gt;DNAME</text>
@@ -2319,8 +2319,8 @@
 <text x="0" y="-2.54" size="1.016" layer="96" font="vector" rot="R180" align="center">&gt;VALUE</text>
 <polygon width="0.1524" layer="94">
 <vertex x="-1.27" y="0"/>
+<vertex x="0" y="-1.27"/>
 <vertex x="1.27" y="0"/>
-<vertex x="0" y="-1.524"/>
 </polygon>
 </symbol>
 <symbol name="POWER">
@@ -2933,14 +2933,6 @@
 <smd name="2" x="0.2375" y="0" dx="0.25" dy="0.275" layer="1"/>
 <text x="-1.27" y="0.6985" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="12.5MM_CAP_PTH">
-<pad name="POS" x="0" y="2.5" drill="0.7" diameter="1.6764" shape="long"/>
-<pad name="NEG" x="0" y="-2.5" drill="0.7" diameter="1.6764" shape="long"/>
-<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
-<wire x1="0" y1="6" x2="0" y2="4" width="0.127" layer="21"/>
-<wire x1="-1" y1="5" x2="1" y2="5" width="0.127" layer="21"/>
-<text x="-6.43" y="6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-</package>
 <package name="1206_POLARIZED">
 <wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="21"/>
 <wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="21"/>
@@ -3090,6 +3082,14 @@
 <vertex x="-2.8575" y="1.27" curve="-90"/>
 <vertex x="-2.54" y="0.9525" curve="-90"/>
 </polygon>
+</package>
+<package name="12.5MM_CAP_PTH">
+<pad name="POS" x="0" y="2.5" drill="0.8" diameter="1.6764" shape="long"/>
+<pad name="NEG" x="0" y="-2.5" drill="0.8" diameter="1.6764" shape="long"/>
+<circle x="0" y="0" radius="6.5" width="0.127" layer="21"/>
+<wire x1="0" y1="6" x2="0" y2="4" width="0.127" layer="21"/>
+<wire x1="-1" y1="5" x2="1" y2="5" width="0.127" layer="21"/>
+<text x="-6.43" y="6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4354,7 +4354,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="R22" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
 <part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT">
 <attribute name="DNAME" value="PARKER DILLMANN"/>
-<attribute name="REVNUM" value="REV: 1"/>
+<attribute name="REVNUM" value="REV: 2"/>
 </part>
 <part name="FID1" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
 <part name="FID2" library="MF_Aesthetics" deviceset="FIDUCIAL" device="_100MIL"/>
@@ -4881,9 +4881,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="449.58" y1="-157.48" x2="447.04" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="-157.48" x2="447.04" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="-157.48" x2="447.04" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="U$33" gate="G$1" pin="P$1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="447.04" y1="-119.38" x2="447.04" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="449.58" y1="-185.42" x2="447.04" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="-185.42" x2="447.04" y2="-157.48" width="0.1524" layer="91"/>
 <junction x="447.04" y="-157.48"/>
@@ -4891,6 +4892,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="449.58" y1="-213.36" x2="447.04" y2="-213.36" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="-213.36" x2="447.04" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="447.04" y="-185.42"/>
+<pinref part="EN1" gate="G$1" pin="5"/>
+<wire x1="464.82" y1="-119.38" x2="447.04" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="447.04" y="-119.38"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5522,9 +5526,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <segment>
 <pinref part="SW1" gate="G$1" pin="ANODE_1"/>
 <wire x1="477.52" y1="-167.64" x2="490.22" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="-167.64" x2="490.22" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="-167.64" x2="490.22" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="ANODE_2"/>
-<wire x1="490.22" y1="-104.14" x2="490.22" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="-175.26" x2="490.22" y2="-175.26" width="0.1524" layer="91"/>
 <wire x1="490.22" y1="-175.26" x2="490.22" y2="-167.64" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="G$1" pin="ANODE_1"/>
@@ -5545,11 +5548,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <junction x="490.22" y="-175.26"/>
 <junction x="490.22" y="-167.64"/>
 <pinref part="U$28" gate="G$1" pin="P$1"/>
-<wire x1="490.22" y1="-104.14" x2="441.96" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="EN1" gate="G$1" pin="5"/>
-<wire x1="441.96" y1="-104.14" x2="441.96" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="-119.38" x2="464.82" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="490.22" y="-104.14"/>
 </segment>
 </net>
 <net name="N$2" class="0">
