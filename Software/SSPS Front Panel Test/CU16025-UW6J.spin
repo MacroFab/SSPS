@@ -30,21 +30,12 @@ PUB START(LCD_STB, LCD_SCK, LCD_DAT)
   DIRA[SI] ~~
 
   INST4 (%00000110,0)
-  INST4 (%00001111,0)
+  INST4 (%00001100,0)
   INST4 (%00010100,0)
   INST4 (%00110000,0)
   INST4 (%00000000,1)
 
   CLEAR
-
-  'MOVE(5,2)
-
-  waitcnt(cnt+clkfreq)
-
-  STR(STRING("MACROFAB"))
-  MOVE(0,2)
-  STR(STRING("HELLO WORLD!~"))
-  'INST4 (%00110011,1)
   
   return                                    
 
