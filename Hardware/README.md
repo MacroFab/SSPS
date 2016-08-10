@@ -1,4 +1,3 @@
-![MF_ED_Logo](MacroFab_ED_600px.png)
 ***
 ###Hardware
 ***
