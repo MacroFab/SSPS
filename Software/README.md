@@ -1,8 +1,8 @@
 ![MF_ED_Logo](MacroFab_ED_600px.png)
 ***
-###SSPS
+###Software
 ***
-**MacroFab, INC. Super Simple Power Supply**
+**Software for the Super Simple Power Supply**
 
 This repository contains the information and files needed to build the Super Simple Power Supply or SSPS. 
 
@@ -18,8 +18,7 @@ This project is under the [Creative Commons Attribution-ShareAlike 4.0 Internati
 
 | Directory | Description |
 |---|---|
-| Hardware | Contains all the hardware files for the SSPS. | 
-| Software | Has all the firmware that needs to be loaded onto the SSPS. |
+| SSPS Front Panel Test | Test code for the [SSPS Front Panel Test](https://github.com/MacroFab/SSPS/tree/master/Hardware/SSPS%20Front%20Panel%20Test) PCB | 
 
 ***
 **Credits**

@@ -1,8 +1,8 @@
 ![MF_ED_Logo](MacroFab_ED_600px.png)
 ***
-###SSPS
+###Hardware
 ***
-**MacroFab, INC. Super Simple Power Supply**
+**Hardware for the Super Simple Power Supply**
 
 This repository contains the information and files needed to build the Super Simple Power Supply or SSPS. 
 
@@ -18,8 +18,12 @@ This project is under the [Creative Commons Attribution-ShareAlike 4.0 Internati
 
 | Directory | Description |
 |---|---|
-| Hardware | Contains all the hardware files for the SSPS. | 
-| Software | Has all the firmware that needs to be loaded onto the SSPS. |
+| Datasheets |  Datasheets that are a pain to get a hold of. |
+| Enclosure | Enclosure Drawings and Mockups. | 
+| OPA541 Breakout | Test board for the OPA541 Opamp. |
+| SSPS Front Panel | Front Panel for the SSPS. Digital Controls. |
+| SSPS Front Panel Test | Test board for the SSPS digital side. |
+| SSPS Regulated Power Supply Simulation | Multisim Simulation of the SSPS Analog side. |
 
 ***
 **Credits**
