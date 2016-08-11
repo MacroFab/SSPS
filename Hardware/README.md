@@ -22,6 +22,7 @@ This project is under the [Creative Commons Attribution-ShareAlike 4.0 Internati
 | OPA541 Breakout | Test board for the OPA541 Opamp. |
 | SSPS Front Panel | Front Panel for the SSPS. Digital Controls. |
 | SSPS Front Panel Test | Test board for the SSPS digital side. |
+| SSPS Analog board | Analog output board |
 | SSPS Regulated Power Supply Simulation | Multisim Simulation of the SSPS Analog side. |
 
 ***

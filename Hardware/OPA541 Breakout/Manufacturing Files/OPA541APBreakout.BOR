@@ -1,0 +1,21 @@
+G04 DipTrace Beta 2.9.0.1*
+G04 OPA541APBreakout.BOR*
+%MOIN*%
+G04 #@! TF.FileFunction,Profile*
+G04 #@! TF.Part,Single*
+%ADD11C,0.006*%
+%FSLAX26Y26*%
+G04*
+G70*
+G90*
+G75*
+G01*
+G04 BoardOutline*
+%LPD*%
+X0Y0D2*
+D11*
+X2000000D1*
+Y1000000D1*
+X0D1*
+Y0D1*
+M02*
